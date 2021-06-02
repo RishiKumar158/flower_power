@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href={{url_for('static',filename='after_prediction.css')}}>
+    <title>Flower Power</title>
+</style>
+</head>
+<body>
+<header align="right">
+    <a href="{{url_for('predict')}}">Predictor</a>
+    <a href="{{url_for('home')}}">Home</a>
+</header>
+
+<h1 style="text-align: center; font-size: 3 rem; font-weight: bolder">Iris Setosa</h1>
+<p>Values Provided: </p>
+<ul id="menu">
+  <li>Sepal Length: {{s_len}}, </li>
+    <br>
+  <li>Sepal Width: {{s_wid}}, </li>
+  <li>Petal Length: {{p_len}}, </li>
+  <li>Petal Width: {{p_wid}}</li>
+</ul>
+<div class="setosa_img">
+    <img src="../static/iris background.jfif" alt="Rishi" style="height: 550px; width: 550px; margin-left: 32%">
+</div>
+<div>
+    <h2><center>Iris setosa, the bristle-pointed iris, is a species of flowering plant in the genus Iris of the family Iridaceae, it belongs the subgenus Limniris and the series Tripetalae.</center></h2>
+</div>
+</body>
+</html>

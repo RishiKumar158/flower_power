@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Power</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='index_style.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+<section>
+  <input type="checkbox" id="check">
+  <header>
+    <h2><a href="#" class="logo">Flower Power</a></h2>
+    <div class="navigation">
+      <a href='#'>Home</a>
+      <a href="#about">About Flower Power</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#info">Developer</a>
+      <a href="/predict">Predictor</a>
+    </div>
+    <label for="check">
+      <i class="fas fa-bars menu-btn"></i>
+      <i class="fas fa-times close-btn"></i>
+    </label>
+  </header>
+  <div class="content" style="margin-top: 8%">
+    <div class="info">
+      <h2>Plant Trees <br><span>Save Earth</span></h2>
+      <p>“Flowers always make people better, happier and more helpful; they are sunshine, food and medicine for the soul.”</p>
+      <a href="#about" class="info-btn">More info</a>
+    </div>
+  </div>
+  <div class="media-icons">
+    <a href="https://www.linkedin.com/in/rishi-kumar-918987210"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/RishiKumar158"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/Rishikumar0158"><i class="fab fa-twitter"></i></a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Flower Power</h2>
+  <p class="about-content" style="text-align: center">
+    Did you know flowers are scientifically proven to provide a moment of calm?
+    Research from the University of North Florida’s Department of Public Health shows that living with flowers significantly reduces our stress.
+    That is good news considering 68 percent of people report experiencing stress weekly and 32 percent feel stress daily.
+    A simple solution to help relieve your stress is to have flowers on your nightstand to see when you first wake up,
+    on your desk to provide a breath of fresh air while you work, or on your kitchen counter or coffee table to help you unwind after a hectic day.
+    Flowers do wonders for your well-being, increasing happiness, workplace productivity, decreasing worry and anxiety, and more.
+  </p>
+</section>
+
+<section id="dashboard">
+  <h2>Dashboard</h2>
+  <p>This dashboard is done using a software called PowerBI which is a product of Microsoft.
+        Here I have just attached the images of the dashboard because PowerBI needs oraganizational
+        account. So to see the visualizations interactive I am attaching my <a href="../static/flower_power.pbix" style="color: black; font-weight: bold;">PowerBI</a>
+        dashboard file. This requires PowerBI software to open the file. The usage of dashboards like
+        these is to bring a better understanding about the dataset and also to bring some beautiful insights</p>
+  <img class="dashboard-image" src="../static/all.png" alt="1">
+  <div>
+    <img src="../static/1.png" alt="2">
+    <img src="../static/2.png" alt="3">
+    <img src="../static/3.png" alt="4">
+    <img src="../static/4.png" alt="5">
+    <img src="../static/5.png" alt="6">
+    <img src="../static/6.png" alt="7">
+  </div>
+</section>
+
+<section id="info">
+  <div>
+    <img src="../static/rishi.jpg" alt="Rishi">
+  </div>
+  <div>
+    <h2>Developer</h2>
+    <p class="about-content"> Hi, I'm Rishi, a Data Scientist 🚀 from India.
+          Currently, I'm learning ML, DL, CV & NLP. I have an experience as a Data Science Intern in a
+          company called TreeSoft Solutions situated at Hyderabad for around three months. Now currently I am trying
+          to do some self - paced projects in data science like Rainy Brain, Smart Attendance System,
+          J.A.R.V.I.S, etc.. I also have experience of taking webinars in my college. I am also trying
+          to do some projects for my college too. Always curious to learn something new in
+          the field of Data Science. Beside's programming, I enjoy playing games and watching youtube.
+          Below I have given my social media links. Happy to have new connections.</p>
+  </div>
+</section>
+
+<footer>
+  <p>
+    Developed with ❤️ by Rishi
+  </p>
+  <div class="media-icons">
+    <a href="https://www.linkedin.com/in/rishi-kumar-918987210"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/RishiKumar158"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/Rishikumar0158"><i class="fab fa-twitter"></i></a>
+  </div>
+</footer>
+</body>
+</html>
